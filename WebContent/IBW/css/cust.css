@@ -1,0 +1,470 @@
+@charset "utf-8";
+/* CSS Document */
+
+.contain{
+	width:100%;
+	height:520px;
+}
+
+#contain2{
+	width:100%;
+	height:1000px;
+}
+.snsContainer{
+	width:80px;
+	text-align:center;
+}
+.manageBtn{
+	background-color:#666;
+	color:#FFF;	
+}
+.centerAlign{
+	text-align:center;
+}
+
+#partnercontain{
+	width: 100%;
+	height: 500px;
+	border-top-width: 0.5px;
+	border-top-style: solid;
+	border-top-color: #666;
+}
+.manageFont{
+	text-align:center;
+	font-size:32px;
+}
+.selectLanguageFont{
+	font-size:16px;
+}
+
+#Aboutcontain2{
+	width:100%;
+	height:600px;
+}
+
+#contain3{
+	width:100%;
+	height:1300px;
+}
+.carouselWidth{
+	width:100%;
+}
+
+
+#Feriascontain2{
+	width:100%;
+	height:900px;
+}
+#Edificontain2{
+	width:100%;
+	height:850px;
+}
+
+#contain22{
+	width:100%;
+	height:1500px;
+}
+
+.cardContain{
+	width:100px;
+	height:200px;	
+}
+.SiteMargin{
+	padding-top:100px;	
+}
+.MainFontPosition{
+	padding-top: 180px;
+	text-align: center;
+	text-shadow: #936;
+	font-size: 75px;
+	font-style: oblique;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #CC3;	
+	margin-bottom:20px;
+}
+.MainFont2{
+	font-size: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #3C3;
+	margin-bottom:250px;	
+}
+.MainFontPositionBlue{
+	padding-top: 180px;
+	text-align: center;
+	text-shadow: #936;
+	font-size: 75px;
+	font-style: oblique;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #0CF;	
+	margin-bottom:20px;
+}
+.MainFont2pink{
+	font-size: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F39;
+	margin-bottom:250px;	
+}
+
+.MainFontPositionRed{
+	padding-top: 180px;
+	text-align: center;
+	text-shadow: #936;
+	font-size: 75px;
+	font-style: oblique;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #F39;
+	margin-bottom:20px;
+}
+.MainFont2Red{
+	font-size: 25px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	color: #690;
+	margin-bottom:250px;	
+}
+
+
+
+
+.logoFont{
+	font-weight:400;
+	color:#767676;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:20px;
+	width:180px;
+}
+.logoFont2{
+	font-weight:400;
+	color:#767676;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:30px;
+	width:100%;
+	text-align:center;
+}
+
+.AboutFont{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+}
+.AboutFont2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:30px;
+	text-align:center;
+	color:#767676;
+}
+.AboutFont3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight: 300;
+	font-size: 15px;
+	text-align: center;
+	box-sizing: border-box;
+	height: 160px;
+	width: 800px;
+	margin-left: 230px;	
+}
+
+
+.EventosFont{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+}
+.EventosFont2{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-align:center;
+}
+.EventosFont3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:15px;
+	text-align:center;
+	box-sizing: border-box;
+	height: 100px;
+	width: 800px;
+	margin-left: 230px;	
+}
+
+
+.FeriasFont{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+
+}
+.FeriasFont2{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-align:center;
+}
+.FeriasFont3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:15px;
+	text-align:center;
+	box-sizing: border-box;
+	height: 100px;
+	width: 800px;
+	margin-left: 230px;	
+}
+
+.EdifiFont{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:40px;
+	text-align:center;
+}
+.EdifiFont2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-align:center;
+}
+.EdifiFont3{
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:15px;
+	text-align:center;
+	box-sizing: border-box;
+	height: 60px;
+	width: 800px;
+	margin-left: 230px;	
+}
+
+.ContactFont{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:45px;
+	text-align:center;
+
+}
+.ContactFont2{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-align:center;
+
+}
+.ContactFont3{
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-weight:300;
+	font-size:20px;
+	text-align:left;
+	padding-left:100px;
+}
+
+#PageSize{
+	width:100%;
+	height:800px;
+}
+.AboutContainer{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 520px;
+	margin-top: 10px;
+	background-color:transparent;
+	box-sizing:border-box;
+	box-shadow:#C9C;
+	border-radius: 40px / 20px;
+}
+#cardName{
+	width:250px;
+	height:100px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:18px;
+	box-sizing:border-box;
+	text-align:center;
+}
+.cardImg{
+	width:250px;
+	height:200px;
+	box-sizing:border-box;	
+}
+.p1{
+	font-size:14px;
+	text-align:center;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+.Custfooter{
+	width:100%;
+	height:220px;
+	background-color:#000;
+}
+.whiteFont{
+	color:#CCC;
+}
+.purpleFont{
+	color:#96F;
+}
+.bg-white{
+	color:#FFF;	
+}
+.ImgContainer{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 270px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+
+}
+.ImgContainer2{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 650px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+
+}
+.ImgContainer3{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 250px;
+	background-color:transparent;
+	box-sizing:border-box;
+	box-shadow:#C9C;
+	border-radius: 40px / 20px;
+
+}
+.ImgContainer4{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 650px;
+	background-color:transparent;
+	box-sizing:border-box;
+	box-shadow:#C9C;
+	border-radius: 40px / 20px;
+}
+.ImgContainer5{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 270px;
+	background-color:transparent;
+	box-sizing:border-box;
+	box-shadow:#C9C;
+	border-radius: 40px / 20px;
+}
+
+.FeriasContainer{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-left: 230px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+}
+.FeriasContainer2{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 650px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+}
+
+.ConstrContainer{
+	float: left;
+	height: 250px;
+	width: 250px;
+	margin-left: 230px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+}
+.ConstrContainer2{
+	float: left;
+	height: 200px;
+	width: 250px;
+	margin-left: 650px;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+}
+.ContactContainer{
+	height: 450px;
+	width: 100%;
+	background-color: transparent;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+	text-align:center;
+}
+.EmailContainer{
+	height: 530px;
+	width: 500px;
+	background-color: transparent;
+	margin-left: 400px;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+.EmailContainerManage{
+	height: 350px;
+	width: 500px;
+	background-color: transparent;
+	margin-left: 400px;
+	box-sizing: border-box;
+	box-shadow: #C9C;
+	border-radius: 40px / 20px;
+	text-align: center;
+	border: 1px solid #666;
+}
+
+.BottomCreate{
+	text-align:right;
+}
+
+
+#adsideWrapper {
+	position: fixed;
+	width: 180px;
+	height:100%;
+	display: inline-block;
+	text-align: center;
+	margin-top: 130px;
+	margin-bottom: 20px;
+	margin-left: 1070px;
+	z-index:1;
+	background-color:transparent;
+}
+#adside {
+  position: absolute;
+  top: 0;
+  box-sizing:border-box;
+  border: 0.5px solid #000;
+  box-shadow: #C9C;
+  border-radius: 20px / 20px;
+  text-align: center;
+}
+#adside.fixed {
+  position: fixed;
+  top: 0;
+
+
+}
+
+<!-- -->
