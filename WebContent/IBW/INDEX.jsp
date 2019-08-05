@@ -1,8 +1,9 @@
 <%@page import="java.util.Enumeration"%>
 <%@page import="com.oreilly.servlet.multipart.DefaultFileRenamePolicy"%>
 <%@page import="com.oreilly.servlet.MultipartRequest"%>
-
-
+<%@page import="java.util.Enumeration"%>
+<%@ page import="java.sql.*"%>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %> 
 <%@ page import="java.io.*"%>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
@@ -31,11 +32,29 @@
     </script>
 	
     <%
+    String path = "";
+    String index = "";
     // 실제로 서버에 저장되는 path
-   
-    String path = request.getRealPath("/File");
-    out.println("절대 경로 : " + path + "<br/>");
+    if (request.getParameter("index")!= null) {
+    	index = request.getParameter("index");
+        out.println(index);
+    	
+    }
     
+    
+    if (index.equals("scroll"))
+    {
+    	path = request.getRealPath("/File");
+    } else if(index.equals("Eventos")){
+    	path = request.getRealPath("/Eventos");
+    } else if(index.equals("Ferias")) {
+    	path = request.getRealPath("/Ferias");
+    }
+    
+   
+    
+    out.println("절대 경로 : " + path + "<br/>");
+   	
     int size = 1024 * 1024 * 10; // 파일 사이즈 설정 : 10M
     String filename1 = "";    // 업로드한 파일 이름
     String filename2 = "";
@@ -88,6 +107,15 @@
   String fullpath1 = "http://localhost:8080/IBW/File/second.png"; 
   String fullpath2 = "http://localhost:8080/IBW/File/first.png";
   String fullpath3 = "http://localhost:8080/IBW/File/third.png";
+  
+  String Ferias1 = "http://localhost:8080/IBW/Ferias/second.png"; 
+  String Ferias2 = "http://localhost:8080/IBW/Ferias/first.png";
+  String Ferias3 = "http://localhost:8080/IBW/Ferias/third.png";
+  
+  String Eventos1 = "http://localhost:8080/IBW/Eventos/second.png"; 
+  String Eventos2 = "http://localhost:8080/IBW/Eventos/first.png";
+  String Eventos3 = "http://localhost:8080/IBW/Eventos/third.png";
+  
   
   File oldFile1 = new File(filePath + filename1);
   File oldFile2 = new File(filePath + filename2);
@@ -343,15 +371,15 @@
 
              <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img alt="new ferias1"  src="images/Indoor1.png" width="150px" height="130px">                                       
+                    <img alt="new ferias1"  src="<%=Ferias1%>" width="150px" height="130px">                                       
                 </div>
 
                 <div class="carousel-item">
-                   <img alt="new ferias2" src="images/Indoor2.png" width="150px" height="130px">      
+                   <img alt="new ferias2" src="<%=Ferias2%>" width="150px" height="130px">      
                 </div>
                 
                 <div class="carousel-item">
-                    <img alt="new ferias3" src="images/Indoor3.png" width="150px" height="130px">      
+                    <img alt="new ferias3" src="<%=Ferias3%>" width="150px" height="130px">      
                 </div>
 
             </div>
@@ -390,19 +418,19 @@
              <div class="carousel-inner">
                 <div class="carousel-item active">
                     <a href="#section-eventos">
-                    <img alt="new eventos1" src="images/Outdoor1.png" width="150px" height="130px">
+                    <img alt="new eventos1" src="<%=Eventos1%>" width="150px" height="130px">
                     </a>                                       
                 </div>
 
                 <div class="carousel-item">
                     <a href="#section-eventos">
-                   <img alt="new eventos2" href="#section-eventos"  src="images/Outdoor2.png" width="150px" height="130px">
+                   <img alt="new eventos2" href="#section-eventos"  src="<%=Eventos2%>" width="150px" height="130px">
                    </a>      
                 </div>
                 
                 <div class="carousel-item">
                    <a href="#section-eventos">
-                    <img alt="new eventos3"  href="#section-eventos" src="images/Indoor4.png" width="150px" height="130px">
+                    <img alt="new eventos3"  href="#section-eventos" src="<%=Eventos3%>" width="150px" height="130px">
                     </a>      
                 </div>
 
